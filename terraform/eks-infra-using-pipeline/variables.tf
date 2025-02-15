@@ -24,6 +24,6 @@ variable "vpc_id" {
     description = "VPC ID"
 }
 
-variable "s3_statefile_bucket_name" {
-    description = "S3 Bucket for Terraform Statefile"
-}
+# variable "s3_statefile_bucket_name" {
+#     description = "S3 Bucket for Terraform Statefile"
+# }
