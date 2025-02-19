@@ -79,8 +79,8 @@ else
 fi
 
 # Helm and Kubectl Version
-helm version
-kubectl version --client
+which helm && helm version
+which kubectl && kubectl version --client
 
 # Cleanup (Optional)
 rm -f kubectl get_helm.sh
